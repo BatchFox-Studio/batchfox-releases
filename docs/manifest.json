@@ -1,0 +1,8 @@
+{
+  "latest_version": "0.0.0",
+  "minimum_supported_version": null,
+  "channel": "beta",
+  "release_notes": "BatchFox update channel — placeholder manifest. Replaced by the release build pipeline on each publish.",
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases",
+  "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+}
