@@ -1,8 +1,19 @@
 {
-  "latest_version": "0.0.0",
-  "minimum_supported_version": null,
+  "latest_version": "1.0.1.999",
+  "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "release_notes": "BatchFox update channel — placeholder manifest. Replaced by the release build pipeline on each publish.",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases",
-  "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.1.999/BatchFox-Setup-1.0.1.999.exe",
+  "sha256": "d85af7b0f7f4215887b922ef8428cc8df52038d73c46a0e3da68f0ca4b67d4b0",
+  "release_notes": "E2E upgrade-path test (throwaway, safe to delete).",
+  "filename": "BatchFox-Setup-1.0.1.999.exe",
+  "filesize_bytes": 121,
+  "assets": [
+    {
+      "kind": "installer",
+      "filename": "BatchFox-Setup-1.0.1.999.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.1.999/BatchFox-Setup-1.0.1.999.exe",
+      "sha256": "d85af7b0f7f4215887b922ef8428cc8df52038d73c46a0e3da68f0ca4b67d4b0",
+      "filesize_bytes": 121
+    }
+  ]
 }
