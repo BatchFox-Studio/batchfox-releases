@@ -1,0 +1,41 @@
+name: Sync the Downloads page
+
+# Publishing a release is: update docs/manifest.json and push. This workflow
+# then waits until updates.batchfox.app is serving that manifest and asks the
+# website to refresh its Downloads page records from it. Nothing is edited by
+# hand, and the records can only ever say what the manifest says.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - docs/manifest.json
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Wait until updates.batchfox.app serves the manifest just pushed
+        run: |
+          expected=$(python3 -c "import json; print(json.load(open('docs/manifest.json'))['latest_version'])")
+          for attempt in $(seq 1 30); do
+            served=$(curl -fsS https://updates.batchfox.app/manifest.json | python3 -c "import json, sys; print(json.load(sys.stdin).get('latest_version', ''))" 2>/dev/null || true)
+            if [ "$served" = "$expected" ]; then
+              echo "Serving $served"
+              exit 0
+            fi
+            echo "Attempt $attempt: serving '$served', waiting for '$expected'"
+            sleep 10
+          done
+          echo "The manifest was not being served after five minutes"
+          exit 1
+
+      - name: Refresh the Downloads page from the manifest
+        run: |
+          curl -fsS -X POST "https://batchfox.app/functions/syncSoftwareVersions" \
+            -H "Content-Type: application/json" \
+            -d '{"source":"github-actions"}' | tee sync.json
+          python3 -c "import json; d = json.load(open('sync.json')); assert d.get('ok'), d; print('created', d.get('created'), 'updated', d.get('updated'), 'demoted', d.get('demoted'), 'unchanged', d.get('unchanged'))"
