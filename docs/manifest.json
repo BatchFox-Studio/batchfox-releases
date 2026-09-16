@@ -2,18 +2,18 @@
   "latest_version": "1.0.2.2",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.2.2/BatchFox-Setup-1.0.2.2.exe",
-  "sha256": "e08889d56ff4824e9125138f11e370a78c9e05b3b8d68e2fb0966f1b01f65a21",
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.2.2/BatchFox-Setup-1.0.2.2-r1.exe",
+  "sha256": "fe969544c8910bc1d7829b88989e6b26798d46bf22e2ace115dfe1d351d49c15",
   "release_notes": "BatchFox 1.0.2.2 - beta.",
-  "filename": "BatchFox-Setup-1.0.2.2.exe",
-  "filesize_bytes": 674780304,
+  "filename": "BatchFox-Setup-1.0.2.2-r1.exe",
+  "filesize_bytes": 674796832,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.2.2.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.2.2/BatchFox-Setup-1.0.2.2.exe",
-      "sha256": "e08889d56ff4824e9125138f11e370a78c9e05b3b8d68e2fb0966f1b01f65a21",
-      "filesize_bytes": 674780304
+      "filename": "BatchFox-Setup-1.0.2.2-r1.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.2.2/BatchFox-Setup-1.0.2.2-r1.exe",
+      "sha256": "fe969544c8910bc1d7829b88989e6b26798d46bf22e2ace115dfe1d351d49c15",
+      "filesize_bytes": 674796832
     }
   ]
 }
