@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.2",
+  "latest_version": "1.0.3.3",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.2/BatchFox-Setup-1.0.3.2.exe",
-  "sha256": "b0a8b974a8ff5dd02f226a9765c7f18751dced872e7dcc90de4f947560b2a4b2",
-  "release_notes": "BatchFox 1.0.3.2 - beta. Fixes: in-app update failing with 'file in use' while BatchFox is open; menu-bar corner chips overlapping.",
-  "filename": "BatchFox-Setup-1.0.3.2.exe",
-  "filesize_bytes": 672467848,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.3/BatchFox-Setup-1.0.3.3.exe",
+  "sha256": "233cfdd2b0b06218a67e767f8c4285e62ad0217b7fd7524d366b8072bf6d9a04",
+  "release_notes": "BatchFox 1.0.3.3 - beta. Fixes: in-app update failing with 'BatchFox files are still in use' when updating from 1.0.3.1 or 1.0.3.2.",
+  "filename": "BatchFox-Setup-1.0.3.3.exe",
+  "filesize_bytes": 672468952,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.2.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.2/BatchFox-Setup-1.0.3.2.exe",
-      "sha256": "b0a8b974a8ff5dd02f226a9765c7f18751dced872e7dcc90de4f947560b2a4b2",
-      "filesize_bytes": 672467848
+      "filename": "BatchFox-Setup-1.0.3.3.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.3/BatchFox-Setup-1.0.3.3.exe",
+      "sha256": "233cfdd2b0b06218a67e767f8c4285e62ad0217b7fd7524d366b8072bf6d9a04",
+      "filesize_bytes": 672468952
     }
   ]
 }
