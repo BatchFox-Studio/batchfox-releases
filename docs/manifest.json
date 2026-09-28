@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.1",
+  "latest_version": "1.0.3.2",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.1/BatchFox-Setup-1.0.3.1.exe",
-  "sha256": "8b2ff26bbcde580e7a526294409c64981aa79a5ddc5a37e9eeeb4ab83363b2af",
-  "release_notes": "BatchFox 1.0.3.1 - beta. Fixes: welcome/announcement modal, walkthrough button, small-desktop layout, archive cancel handling, Old Photo Rescue on frozen builds, Restore re-download.",
-  "filename": "BatchFox-Setup-1.0.3.1.exe",
-  "filesize_bytes": 672460528,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.2/BatchFox-Setup-1.0.3.2.exe",
+  "sha256": "b0a8b974a8ff5dd02f226a9765c7f18751dced872e7dcc90de4f947560b2a4b2",
+  "release_notes": "BatchFox 1.0.3.2 - beta. Fixes: in-app update failing with 'file in use' while BatchFox is open; menu-bar corner chips overlapping.",
+  "filename": "BatchFox-Setup-1.0.3.2.exe",
+  "filesize_bytes": 672467848,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.1.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.1/BatchFox-Setup-1.0.3.1.exe",
-      "sha256": "8b2ff26bbcde580e7a526294409c64981aa79a5ddc5a37e9eeeb4ab83363b2af",
-      "filesize_bytes": 672460528
+      "filename": "BatchFox-Setup-1.0.3.2.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.2/BatchFox-Setup-1.0.3.2.exe",
+      "sha256": "b0a8b974a8ff5dd02f226a9765c7f18751dced872e7dcc90de4f947560b2a4b2",
+      "filesize_bytes": 672467848
     }
   ]
 }
