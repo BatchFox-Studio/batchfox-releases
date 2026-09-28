@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.2.2",
+  "latest_version": "1.0.3.1",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.2.2/BatchFox-Setup-1.0.2.2-r3.exe",
-  "sha256": "752b31db9a1097aba35cb3b1fab161e09b163ed32099e1acc292e91cf3521a9e",
-  "release_notes": "BatchFox 1.0.2.2 - beta.",
-  "filename": "BatchFox-Setup-1.0.2.2-r3.exe",
-  "filesize_bytes": 672460288,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.1/BatchFox-Setup-1.0.3.1.exe",
+  "sha256": "8b2ff26bbcde580e7a526294409c64981aa79a5ddc5a37e9eeeb4ab83363b2af",
+  "release_notes": "BatchFox 1.0.3.1 - beta. Fixes: welcome/announcement modal, walkthrough button, small-desktop layout, archive cancel handling, Old Photo Rescue on frozen builds, Restore re-download.",
+  "filename": "BatchFox-Setup-1.0.3.1.exe",
+  "filesize_bytes": 672460528,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.2.2-r3.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.2.2/BatchFox-Setup-1.0.2.2-r3.exe",
-      "sha256": "752b31db9a1097aba35cb3b1fab161e09b163ed32099e1acc292e91cf3521a9e",
-      "filesize_bytes": 672460288
+      "filename": "BatchFox-Setup-1.0.3.1.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.1/BatchFox-Setup-1.0.3.1.exe",
+      "sha256": "8b2ff26bbcde580e7a526294409c64981aa79a5ddc5a37e9eeeb4ab83363b2af",
+      "filesize_bytes": 672460528
     }
   ]
 }
