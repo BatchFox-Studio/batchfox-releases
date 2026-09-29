@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.4",
+  "latest_version": "1.0.3.5",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.4/BatchFox-Setup-1.0.3.4.exe",
-  "sha256": "4b72cc7a180821bae4a259bef38a595186caa84dd3fc5906a3b4705482716f87",
-  "release_notes": "BatchFox 1.0.3.4 - beta. Fixes: Clean crashing when reviewing similar images in large folders of RAW photos (including network drives). Crash reports now reach the BatchFox team (you can turn this off in Settings).",
-  "filename": "BatchFox-Setup-1.0.3.4.exe",
-  "filesize_bytes": 672468760,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.5/BatchFox-Setup-1.0.3.5.exe",
+  "sha256": "22aad415d3c7258147d4188de8eed63d01bc772e25e114ea7e00ed0c06c911f6",
+  "release_notes": "BatchFox 1.0.3.5 - beta. Problem reports now include more detail so we can fix issues faster (you can turn this off in Settings).",
+  "filename": "BatchFox-Setup-1.0.3.5.exe",
+  "filesize_bytes": 672466816,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.4.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.4/BatchFox-Setup-1.0.3.4.exe",
-      "sha256": "4b72cc7a180821bae4a259bef38a595186caa84dd3fc5906a3b4705482716f87",
-      "filesize_bytes": 672468760
+      "filename": "BatchFox-Setup-1.0.3.5.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.5/BatchFox-Setup-1.0.3.5.exe",
+      "sha256": "22aad415d3c7258147d4188de8eed63d01bc772e25e114ea7e00ed0c06c911f6",
+      "filesize_bytes": 672466816
     }
   ]
 }
