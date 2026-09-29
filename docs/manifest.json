@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.6",
+  "latest_version": "1.0.3.7",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.6/BatchFox-Setup-1.0.3.6.exe",
-  "sha256": "ac489fed7704d7a4acee303d1039ecc2d8bd50c21e51d576f42331cd6bdc3b21",
-  "release_notes": "BatchFox 1.0.3.6 - beta. Fixes: updating from 1.0.3.2 could fail with an error. BatchFox now checks for updates each time it starts and shows the full version number.",
-  "filename": "BatchFox-Setup-1.0.3.6.exe",
-  "filesize_bytes": 672511368,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.7/BatchFox-Setup-1.0.3.7.exe",
+  "sha256": "d911b0d1b963a4a2a4acda5dcd77b5f6e07a355ff620e62aa13ec56276fd64d2",
+  "release_notes": "BatchFox 1.0.3.7 - beta. Fixes: Burst Reduction no longer reports a failed restore check as verified, and Restore only shows Identical when every file is an exact copy.",
+  "filename": "BatchFox-Setup-1.0.3.7.exe",
+  "filesize_bytes": 672507792,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.6.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.6/BatchFox-Setup-1.0.3.6.exe",
-      "sha256": "ac489fed7704d7a4acee303d1039ecc2d8bd50c21e51d576f42331cd6bdc3b21",
-      "filesize_bytes": 672511368
+      "filename": "BatchFox-Setup-1.0.3.7.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.7/BatchFox-Setup-1.0.3.7.exe",
+      "sha256": "d911b0d1b963a4a2a4acda5dcd77b5f6e07a355ff620e62aa13ec56276fd64d2",
+      "filesize_bytes": 672507792
     }
   ]
 }
