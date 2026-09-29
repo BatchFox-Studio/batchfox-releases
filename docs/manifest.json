@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.5",
+  "latest_version": "1.0.3.6",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.5/BatchFox-Setup-1.0.3.5.exe",
-  "sha256": "22aad415d3c7258147d4188de8eed63d01bc772e25e114ea7e00ed0c06c911f6",
-  "release_notes": "BatchFox 1.0.3.5 - beta. Problem reports now include more detail so we can fix issues faster (you can turn this off in Settings).",
-  "filename": "BatchFox-Setup-1.0.3.5.exe",
-  "filesize_bytes": 672466816,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.6/BatchFox-Setup-1.0.3.6.exe",
+  "sha256": "ac489fed7704d7a4acee303d1039ecc2d8bd50c21e51d576f42331cd6bdc3b21",
+  "release_notes": "BatchFox 1.0.3.6 - beta. Fixes: updating from 1.0.3.2 could fail with an error. BatchFox now checks for updates each time it starts and shows the full version number.",
+  "filename": "BatchFox-Setup-1.0.3.6.exe",
+  "filesize_bytes": 672511368,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.5.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.5/BatchFox-Setup-1.0.3.5.exe",
-      "sha256": "22aad415d3c7258147d4188de8eed63d01bc772e25e114ea7e00ed0c06c911f6",
-      "filesize_bytes": 672466816
+      "filename": "BatchFox-Setup-1.0.3.6.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.6/BatchFox-Setup-1.0.3.6.exe",
+      "sha256": "ac489fed7704d7a4acee303d1039ecc2d8bd50c21e51d576f42331cd6bdc3b21",
+      "filesize_bytes": 672511368
     }
   ]
 }
