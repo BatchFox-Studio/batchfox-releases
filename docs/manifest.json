@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.8",
+  "latest_version": "1.0.3.9",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.8/BatchFox-Setup-1.0.3.8.exe",
-  "sha256": "3e6320eff10f0b5f9f9f94d98932d1e9d912f514e151daecf3509ab662dd9e84",
-  "release_notes": "BatchFox 1.0.3.8 - beta. Fixes: closing or canceling the sign-in window when BatchFox starts now quits the app cleanly instead of leaving it stuck.",
-  "filename": "BatchFox-Setup-1.0.3.8.exe",
-  "filesize_bytes": 672511056,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.9/BatchFox-Setup-1.0.3.9.exe",
+  "sha256": "8856b2989cab27b6ab1878424f3c6ce2eb619e45ff5d32bd0e59edb9e664a5b4",
+  "release_notes": "BatchFox 1.0.3.9 - beta. Verify Integrity says exactly what it found, old update downloads are cleaned up automatically, the sidebar shows your version, and problem reports for failed jobs now reach us.",
+  "filename": "BatchFox-Setup-1.0.3.9.exe",
+  "filesize_bytes": 672509720,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.8.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.8/BatchFox-Setup-1.0.3.8.exe",
-      "sha256": "3e6320eff10f0b5f9f9f94d98932d1e9d912f514e151daecf3509ab662dd9e84",
-      "filesize_bytes": 672511056
+      "filename": "BatchFox-Setup-1.0.3.9.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.9/BatchFox-Setup-1.0.3.9.exe",
+      "sha256": "8856b2989cab27b6ab1878424f3c6ce2eb619e45ff5d32bd0e59edb9e664a5b4",
+      "filesize_bytes": 672509720
     }
   ]
 }
