@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.7",
+  "latest_version": "1.0.3.8",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.7/BatchFox-Setup-1.0.3.7.exe",
-  "sha256": "d911b0d1b963a4a2a4acda5dcd77b5f6e07a355ff620e62aa13ec56276fd64d2",
-  "release_notes": "BatchFox 1.0.3.7 - beta. Fixes: Burst Reduction no longer reports a failed restore check as verified, and Restore only shows Identical when every file is an exact copy.",
-  "filename": "BatchFox-Setup-1.0.3.7.exe",
-  "filesize_bytes": 672507792,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.8/BatchFox-Setup-1.0.3.8.exe",
+  "sha256": "3e6320eff10f0b5f9f9f94d98932d1e9d912f514e151daecf3509ab662dd9e84",
+  "release_notes": "BatchFox 1.0.3.8 - beta. Fixes: closing or canceling the sign-in window when BatchFox starts now quits the app cleanly instead of leaving it stuck.",
+  "filename": "BatchFox-Setup-1.0.3.8.exe",
+  "filesize_bytes": 672511056,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.7.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.7/BatchFox-Setup-1.0.3.7.exe",
-      "sha256": "d911b0d1b963a4a2a4acda5dcd77b5f6e07a355ff620e62aa13ec56276fd64d2",
-      "filesize_bytes": 672507792
+      "filename": "BatchFox-Setup-1.0.3.8.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.8/BatchFox-Setup-1.0.3.8.exe",
+      "sha256": "3e6320eff10f0b5f9f9f94d98932d1e9d912f514e151daecf3509ab662dd9e84",
+      "filesize_bytes": 672511056
     }
   ]
 }
