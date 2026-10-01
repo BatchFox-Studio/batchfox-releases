@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.9",
+  "latest_version": "1.0.3.10",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.9/BatchFox-Setup-1.0.3.9.exe",
-  "sha256": "8856b2989cab27b6ab1878424f3c6ce2eb619e45ff5d32bd0e59edb9e664a5b4",
-  "release_notes": "BatchFox 1.0.3.9 - beta. Verify Integrity says exactly what it found, old update downloads are cleaned up automatically, the sidebar shows your version, and problem reports for failed jobs now reach us.",
-  "filename": "BatchFox-Setup-1.0.3.9.exe",
-  "filesize_bytes": 672509720,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.10/BatchFox-Setup-1.0.3.10.exe",
+  "sha256": "38b69e0fbf85ac83c2d39585e60f3951be3d537a69261c9770027afdd586b9bd",
+  "release_notes": "BatchFox 1.0.3.10 (beta). A refreshed look across BatchFox, with clearer steps and calmer progress. Two new tools in Pro: Ingest brings a shoot off the card and checks every file, and Crop composes a single photo or a whole shoot.",
+  "filename": "BatchFox-Setup-1.0.3.10.exe",
+  "filesize_bytes": 672509952,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.9.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.9/BatchFox-Setup-1.0.3.9.exe",
-      "sha256": "8856b2989cab27b6ab1878424f3c6ce2eb619e45ff5d32bd0e59edb9e664a5b4",
-      "filesize_bytes": 672509720
+      "filename": "BatchFox-Setup-1.0.3.10.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.10/BatchFox-Setup-1.0.3.10.exe",
+      "sha256": "38b69e0fbf85ac83c2d39585e60f3951be3d537a69261c9770027afdd586b9bd",
+      "filesize_bytes": 672509952
     }
   ]
 }
