@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.10",
+  "latest_version": "1.0.3.11",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.10/BatchFox-Setup-1.0.3.10.exe",
-  "sha256": "38b69e0fbf85ac83c2d39585e60f3951be3d537a69261c9770027afdd586b9bd",
-  "release_notes": "BatchFox 1.0.3.10 (beta). A refreshed look across BatchFox, with clearer steps and calmer progress. Two new tools in Pro: Ingest brings a shoot off the card and checks every file, and Crop composes a single photo or a whole shoot.",
-  "filename": "BatchFox-Setup-1.0.3.10.exe",
-  "filesize_bytes": 672509952,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.11/BatchFox-Setup-1.0.3.11.exe",
+  "sha256": "0bbc4e5a952916a1eb710fc362a2e5dc6943b85d0f215faa08aca364542e4907",
+  "release_notes": "BatchFox 1.0.3.11 (beta): what's new since 1.0.3.10\n- Signing out or changing your plan no longer closes the app unexpectedly.\n- Recent cards on Home now show your own photos, with each archived shoot named from its frames and its real file count.\n- Until a card has your photos to show, it shows default artwork.",
+  "filename": "BatchFox-Setup-1.0.3.11.exe",
+  "filesize_bytes": 672509792,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.10.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.10/BatchFox-Setup-1.0.3.10.exe",
-      "sha256": "38b69e0fbf85ac83c2d39585e60f3951be3d537a69261c9770027afdd586b9bd",
-      "filesize_bytes": 672509952
+      "filename": "BatchFox-Setup-1.0.3.11.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.11/BatchFox-Setup-1.0.3.11.exe",
+      "sha256": "0bbc4e5a952916a1eb710fc362a2e5dc6943b85d0f215faa08aca364542e4907",
+      "filesize_bytes": 672509792
     }
   ]
 }
