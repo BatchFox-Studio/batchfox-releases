@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.11",
+  "latest_version": "1.0.3.12",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.11/BatchFox-Setup-1.0.3.11.exe",
-  "sha256": "0bbc4e5a952916a1eb710fc362a2e5dc6943b85d0f215faa08aca364542e4907",
-  "release_notes": "BatchFox 1.0.3.11 (beta): what's new since 1.0.3.10\n- Signing out or changing your plan no longer closes the app unexpectedly.\n- Recent cards on Home now show your own photos, with each archived shoot named from its frames and its real file count.\n- Until a card has your photos to show, it shows default artwork.",
-  "filename": "BatchFox-Setup-1.0.3.11.exe",
-  "filesize_bytes": 672509792,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.12/BatchFox-Setup-1.0.3.12.exe",
+  "sha256": "88221dfdc48c404c05dc3756816e1e25d5f0b37f68a3b7937e08c596111e288a",
+  "release_notes": "BatchFox 1.0.3.12 (beta): what's new since 1.0.3.11\n- In Crop, viewing a photo in the filmstrip no longer marks it for saving. Only photos you actually compose are saved or exported.\n- Upscale now shows live progress as it runs: the photo it is on, how many are done, the time left, and a Stop button. Even a single large photo keeps moving instead of looking frozen, and the bottom bar follows along.\n- Coming-soon tabs no longer cut off their text.",
+  "filename": "BatchFox-Setup-1.0.3.12.exe",
+  "filesize_bytes": 672509568,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.11.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.11/BatchFox-Setup-1.0.3.11.exe",
-      "sha256": "0bbc4e5a952916a1eb710fc362a2e5dc6943b85d0f215faa08aca364542e4907",
-      "filesize_bytes": 672509792
+      "filename": "BatchFox-Setup-1.0.3.12.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.12/BatchFox-Setup-1.0.3.12.exe",
+      "sha256": "88221dfdc48c404c05dc3756816e1e25d5f0b37f68a3b7937e08c596111e288a",
+      "filesize_bytes": 672509568
     }
   ]
 }
