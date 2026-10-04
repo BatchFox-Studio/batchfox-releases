@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.13",
+  "latest_version": "1.0.3.14",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.13/BatchFox-Setup-1.0.3.13.exe",
-  "sha256": "a511c7488969f608ec76f85d6d2a500235ef3a1f9c6b522baf6a1d02822be116",
-  "release_notes": "BatchFox 1.0.3.13 (beta): what's new since 1.0.3.12\n- Fixes a crash when archiving uncompressed Fuji X-Trans RAF files (X-T5, X-H2S, X100VI). These archives now finish and restore your original files byte for byte.\n- Fixes lossless Nikon Z8 archives that could fail or hang. They now finish and restore your original files byte for byte.\n- When an archive can't finish, BatchFox now tells you what happened in plain words, with what to try next.\n- Export is rebuilt as a workflow: build it once, run it on every shoot, and pick the photos at run time. It adds undo, redo, and a step menu for building the flow.\n- More tools now show live progress while they work, so a long job never looks frozen.\n- BatchFox now uses only its own built-in helper tool, never a copy already on your computer.",
-  "filename": "BatchFox-Setup-1.0.3.13.exe",
-  "filesize_bytes": 672509840,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.14/BatchFox-Setup-1.0.3.14.exe",
+  "sha256": "e3102d1bfbaaa80b3a0bb9b57beb2ae2386a1a6817225d9a58fdc9460f665f7c",
+  "release_notes": "BatchFox 1.0.3.14 (beta): what's new since 1.0.3.13\n- Fixes restoring some archives that 1.0.3.13 couldn't open. They open and restore correctly again, each at its level.\n- When a restore can't finish, BatchFox now tells you what happened in one plain sentence, on every screen.\n- Cancelling a restore now says so, and the files already restored stay safe.\n- Archives no longer keep error details or your file paths inside them.\n- Importing a workflow into Export now checks its steps and watermark images before using them.",
+  "filename": "BatchFox-Setup-1.0.3.14.exe",
+  "filesize_bytes": 672510744,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.13.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.13/BatchFox-Setup-1.0.3.13.exe",
-      "sha256": "a511c7488969f608ec76f85d6d2a500235ef3a1f9c6b522baf6a1d02822be116",
-      "filesize_bytes": 672509840
+      "filename": "BatchFox-Setup-1.0.3.14.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.14/BatchFox-Setup-1.0.3.14.exe",
+      "sha256": "e3102d1bfbaaa80b3a0bb9b57beb2ae2386a1a6817225d9a58fdc9460f665f7c",
+      "filesize_bytes": 672510744
     }
   ]
 }
