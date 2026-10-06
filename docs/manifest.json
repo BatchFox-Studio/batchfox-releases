@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.14",
+  "latest_version": "1.0.3.15",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.14/BatchFox-Setup-1.0.3.14.exe",
-  "sha256": "e3102d1bfbaaa80b3a0bb9b57beb2ae2386a1a6817225d9a58fdc9460f665f7c",
-  "release_notes": "BatchFox 1.0.3.14 (beta): what's new since 1.0.3.13\n- Fixes restoring some archives that 1.0.3.13 couldn't open. They open and restore correctly again, each at its level.\n- When a restore can't finish, BatchFox now tells you what happened in one plain sentence, on every screen.\n- Cancelling a restore now says so, and the files already restored stay safe.\n- Archives no longer keep error details or your file paths inside them.\n- Importing a workflow into Export now checks its steps and watermark images before using them.",
-  "filename": "BatchFox-Setup-1.0.3.14.exe",
-  "filesize_bytes": 672510744,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.15/BatchFox-Setup-1.0.3.15.exe",
+  "sha256": "1b43e17395e1a5e0cb09e26a5c32ea4a3d88458e00536425bebfd810ce0c0b0a",
+  "release_notes": "BatchFox 1.0.3.15 (beta): what's new since 1.0.3.14\n- Fixes a crash that could happen right after a large archive finished. Big batches now complete and settle without the app closing.\n- The home screen shows your recent archives correctly again.\n- A single file now reads \"1 file\" across the archive plan, not \"1 files\".\n- Known issue: on some Canon cameras, the Smallest Files setting can say an archive returns the original file exactly. On that setting BatchFox keeps your RAW image data exact, byte for byte, in a rebuilt file, which is not the original file byte for byte. We're correcting the wording in the next update.",
+  "filename": "BatchFox-Setup-1.0.3.15.exe",
+  "filesize_bytes": 672509840,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.14.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.14/BatchFox-Setup-1.0.3.14.exe",
-      "sha256": "e3102d1bfbaaa80b3a0bb9b57beb2ae2386a1a6817225d9a58fdc9460f665f7c",
-      "filesize_bytes": 672510744
+      "filename": "BatchFox-Setup-1.0.3.15.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.15/BatchFox-Setup-1.0.3.15.exe",
+      "sha256": "1b43e17395e1a5e0cb09e26a5c32ea4a3d88458e00536425bebfd810ce0c0b0a",
+      "filesize_bytes": 672509840
     }
   ]
 }
