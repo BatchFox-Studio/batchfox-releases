@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.16",
+  "latest_version": "1.0.3.17",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.16/BatchFox-Setup-1.0.3.16.exe",
-  "sha256": "40dbebe26a3308d2c37b4771d33dfb528b56a5beca6f41b729e39473301f0adc",
-  "release_notes": "BatchFox 1.0.3.16 (beta): what's new since 1.0.3.15\n- Crop now opens your RAW photos through the real decoder. Canon CR3 and Fuji RAF previews that used to fail now work, Sony ARW and Nikon NEF show the real frame instead of the small thumbnail, and crops export at full size.\n- Explore handles large libraries, Resize, Convert and Rename add a big folder without making you wait, and Clean stays quick on scans with many close calls.\n- Canon CR3 files now read the camera model from the file itself, not the folder name, so your Canon photos are always identified correctly.\n- Fuji RAF archives now show a real thumbnail in your Library.\n- BatchFox plays its sound logo as the window opens, which now appears a moment later.\n- On Smallest Files, some Canon archives used to say they return the original file. They keep your RAW image data exactly, in a rebuilt file, and always did. The wording now says this correctly. If you archived Canon photos on Smallest Files and need the exact original file, keep your originals, or choose Exact next time.",
-  "filename": "BatchFox-Setup-1.0.3.16.exe",
-  "filesize_bytes": 672510920,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.17/BatchFox-Setup-1.0.3.17.exe",
+  "sha256": "b06ad7e93aef20aea788d0d2af80a24a9e466eda86e4cf438a48f224097564b9",
+  "release_notes": "BatchFox 1.0.3.17 (beta): what's new since 1.0.3.16\n- Changing your plan, or a license check that can't finish, while an edit is running no longer closes the app. The job stops cleanly and keeps the files it already finished.\n- BatchFox now starts right away, instead of waiting up to about 23 seconds on a slow license check.\n- If your license is locked while BatchFox is open, the message now tells you that you can still restore your files, and Restore stays available.\n- If BatchFox closes partway through a rename, Undo still brings back the files that were renamed, and Rename history marks that batch as partial with the count that finished.\n- Face-aware Crop no longer mixes up faces between photos in a batch, and exporting them no longer fails.\n- Explore's first-open screen no longer runs off the edge on smaller displays.\n- Adding a folder in Resize, Convert, or Rename could leave the page stuck before your photos appeared. Now they load.\n\nKnown issue: BatchFox can't fully archive ORF files from some Olympus and OM System cameras yet (OM-1 Mark II, E-M1 Mark II, E-M5 Mark III, E-M10 series, PEN-F, E-M1X). In a batch with other cameras, these files are still stored in the archive, byte for byte; in a batch of only these files, the archive stops and nothing is written. Either way, your original files are untouched. The OM-1, OM-3, OM-5, OM-5 Mark II, and E-M1 Mark III archive normally; support for the rest is on the way.",
+  "filename": "BatchFox-Setup-1.0.3.17.exe",
+  "filesize_bytes": 672509208,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.16.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.16/BatchFox-Setup-1.0.3.16.exe",
-      "sha256": "40dbebe26a3308d2c37b4771d33dfb528b56a5beca6f41b729e39473301f0adc",
-      "filesize_bytes": 672510920
+      "filename": "BatchFox-Setup-1.0.3.17.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.17/BatchFox-Setup-1.0.3.17.exe",
+      "sha256": "b06ad7e93aef20aea788d0d2af80a24a9e466eda86e4cf438a48f224097564b9",
+      "filesize_bytes": 672509208
     }
   ]
 }
