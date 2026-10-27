@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.17",
+  "latest_version": "1.0.3.18",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.17/BatchFox-Setup-1.0.3.17.exe",
-  "sha256": "b06ad7e93aef20aea788d0d2af80a24a9e466eda86e4cf438a48f224097564b9",
-  "release_notes": "BatchFox 1.0.3.17 (beta): what's new since 1.0.3.16\n- Changing your plan, or a license check that can't finish, while an edit is running no longer closes the app. The job stops cleanly and keeps the files it already finished.\n- BatchFox now starts right away, instead of waiting up to about 23 seconds on a slow license check.\n- If your license is locked while BatchFox is open, the message now tells you that you can still restore your files, and Restore stays available.\n- If BatchFox closes partway through a rename, Undo still brings back the files that were renamed, and Rename history marks that batch as partial with the count that finished.\n- Face-aware Crop no longer mixes up faces between photos in a batch, and exporting them no longer fails.\n- Explore's first-open screen no longer runs off the edge on smaller displays.\n- Adding a folder in Resize, Convert, or Rename could leave the page stuck before your photos appeared. Now they load.\n\nKnown issue: BatchFox can't fully archive ORF files from some Olympus and OM System cameras yet (OM-1 Mark II, E-M1 Mark II, E-M5 Mark III, E-M10 series, PEN-F, E-M1X). In a batch with other cameras, these files are still stored in the archive, byte for byte; in a batch of only these files, the archive stops and nothing is written. Either way, your original files are untouched. The OM-1, OM-3, OM-5, OM-5 Mark II, and E-M1 Mark III archive normally; support for the rest is on the way.",
-  "filename": "BatchFox-Setup-1.0.3.17.exe",
-  "filesize_bytes": 672509208,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.18/BatchFox-Setup-1.0.3.18.exe",
+  "sha256": "76d95ac8e0ad26fbd6b2569f44020a8e5feed3e1ac7f8c00c1e9ef04a8ce8527",
+  "release_notes": "BatchFox 1.0.3.18 (beta): what's new since 1.0.3.17\n- If BatchFox can't reach the license server after a while offline, it now keeps working on the Free plan instead of locking you out, and checks again when it reconnects. Restore stays available.\n- If your account is blocked, BatchFox now opens a window that explains why and lets you keep restoring your files, instead of closing.\n- License messages now always appear as a plain sentence, never raw server or error text.\n- When none of the files you're archiving can be read, for example because another program has them open, BatchFox now says so plainly instead of a generic failure.\n- When a photo can't be upscaled, its row now shows what went wrong, and the photo is never silently dropped from the batch.\n- In Crop, the Crop button and Export come back as soon as a compose or export finishes.\n\nKnown issue: BatchFox can't fully archive ORF files from some Olympus and OM System cameras yet (OM-1 Mark II, E-M1 Mark II, E-M5 Mark III, E-M10 series, PEN-F, E-M1X). In a batch with other cameras, these files are still stored in the archive, byte for byte; in a batch of only these files, the archive stops and nothing is written. Either way, your original files are untouched. The OM-1, OM-3, OM-5, OM-5 Mark II, and E-M1 Mark III archive normally; support for the rest is on the way.\n\nKnown issue: If BatchFox pauses its tools so only Restore works, open the License window and sign in again. A fix that renews your sign-in automatically is on the way.",
+  "filename": "BatchFox-Setup-1.0.3.18.exe",
+  "filesize_bytes": 672512272,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.17.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.17/BatchFox-Setup-1.0.3.17.exe",
-      "sha256": "b06ad7e93aef20aea788d0d2af80a24a9e466eda86e4cf438a48f224097564b9",
-      "filesize_bytes": 672509208
+      "filename": "BatchFox-Setup-1.0.3.18.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.18/BatchFox-Setup-1.0.3.18.exe",
+      "sha256": "76d95ac8e0ad26fbd6b2569f44020a8e5feed3e1ac7f8c00c1e9ef04a8ce8527",
+      "filesize_bytes": 672512272
     }
   ]
 }
