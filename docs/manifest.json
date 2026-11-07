@@ -1,19 +1,19 @@
 {
-  "latest_version": "1.0.3.20",
+  "latest_version": "1.0.3.21",
   "minimum_supported_version": "0.0.0",
   "channel": "beta",
-  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.20/BatchFox-Setup-1.0.3.20.exe",
-  "sha256": "9b2a80cb811e0223a7ce24b88298d877510728d1b12ddb9230ecf3d13681ea0b",
-  "release_notes": "BatchFox 1.0.3.20 (beta): what's new since 1.0.3.19\n- When your plan's computers are all in use, BatchFox now explains that in plain words, instead of reading as a blocked account, and tells you how to use BatchFox on this computer. Restore still works here either way.\n- The license and account messages that point you to support now use an address that reaches us.\n\nKnown issue: BatchFox can't fully archive ORF files from some Olympus and OM System cameras yet (OM-1 Mark II, E-M1 Mark II, E-M5 Mark III, E-M10 series, PEN-F, E-M1X). In a batch with other cameras, these files are still stored in the archive, byte for byte; in a batch of only these files, the archive stops and nothing is written. Either way, your original files are untouched. The OM-1, OM-3, OM-5, OM-5 Mark II, and E-M1 Mark III archive normally; support for the rest is on the way.\n\nKnown issue: If your sign-in expires and BatchFox pauses its tools so only Restore works, open the License window and sign in again. A fix that renews your sign-in automatically is on the way.",
-  "filename": "BatchFox-Setup-1.0.3.20.exe",
-  "filesize_bytes": 672511056,
+  "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.21/BatchFox-Setup-1.0.3.21.exe",
+  "sha256": "094ecb9484ef1c212d94c4f445d95034c9e73f5d9ea6cb995d234d7928cf99d9",
+  "release_notes": "BatchFox 1.0.3.21 (beta): what's new since 1.0.3.20\n- When a batch includes a Canon RAW burst roll, BatchFox now archives the whole batch with Exact Restore, so every file comes back as the original, byte for byte. These archives are larger.\n- For Sony ARW files, BatchFox now confirms it can restore an archive before reporting it complete. If it can't, BatchFox uses another method, or shows the problem, instead of reporting success.\n\nKnown issue: BatchFox can't fully archive ORF files from some Olympus and OM System cameras yet (OM-1 Mark II, E-M1 Mark II, E-M5 Mark III, E-M10 series, PEN-F, E-M1X). In a batch with other cameras, these files are still stored in the archive, byte for byte; in a batch of only these files, the archive stops and nothing is written. Either way, your original files are untouched. The OM-1, OM-3, OM-5, OM-5 Mark II, and E-M1 Mark III archive normally; support for the rest is on the way.\n\nKnown issue: BatchFox can't fully archive lossless compressed NEF files from some Nikon cameras yet. In a batch with other files, they are stored in the archive, byte for byte, with little or no space saved. On their own, or in a batch of only these files, the archive stops and nothing is written, and trying again will not help. Either way, your original files are untouched. The Z9, Z8, Z6 II, Z6 III and Z5 II archive normally; a fix is on the way.\n\nKnown issue: on Smallest Files, a batch of two or more Canon CR3 files from some Canon EOS R cameras stops before it finishes, and no archive is written. Trying again will not help. Your original files are untouched. A fix is on the way.\n\nKnown issue: If your sign-in expires and BatchFox pauses its tools so only Restore works, open the License window and sign in again. A fix that renews your sign-in automatically is on the way.\n\nKnown issue: an archive made on Smallest Files from a Canon RAW burst roll or a Canon R3 C-RAW, or a burst roll saved with Burst rolls' Archive Roll, may not appear in Restore, and both Check now and Verify report Failed for it. The Restore list and those checks cannot open these layouts yet, so a Failed here does not mean the archive is damaged; it stays on your drive. You cannot restore these from Restore yet, so keep your original files until the fix that lists them lands. A burst roll can also be brought back in Burst rolls: open a Canon RAW burst roll (any one you have opens the way; it does not have to be the roll you are getting back), then use Roll details > Rescue a roll > Restore Roll. This does not apply to Canon R3 C-RAW archives.\n\nSet aside shelf archives (.shadow.den) also show Failed in Check now and Verify, but they appear in Restore and restore from there, as long as the reduced roll stays beside them.\n\nKnown issue: uncompressed RAW files from some Sony cameras, including the A7C, A9 and A7CR, archived before this update, may not restore, and may show Failed when checked. Keep your original files for those.\n\nKnown issue: some RAW files may save less space than they otherwise could. Those files still restore exactly, and the space saved shown for each archive is accurate.",
+  "filename": "BatchFox-Setup-1.0.3.21.exe",
+  "filesize_bytes": 672512760,
   "assets": [
     {
       "kind": "installer",
-      "filename": "BatchFox-Setup-1.0.3.20.exe",
-      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.20/BatchFox-Setup-1.0.3.20.exe",
-      "sha256": "9b2a80cb811e0223a7ce24b88298d877510728d1b12ddb9230ecf3d13681ea0b",
-      "filesize_bytes": 672511056
+      "filename": "BatchFox-Setup-1.0.3.21.exe",
+      "download_url": "https://github.com/BatchFox-Studio/batchfox-releases/releases/download/v1.0.3.21/BatchFox-Setup-1.0.3.21.exe",
+      "sha256": "094ecb9484ef1c212d94c4f445d95034c9e73f5d9ea6cb995d234d7928cf99d9",
+      "filesize_bytes": 672512760
     }
   ]
 }
